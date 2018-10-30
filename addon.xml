@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.Showbox" name="Showbox" version="0.2" provider-name="Morc">
+<addon id="script.Showbox" name="Showbox" version="0.3" provider-name="Morc">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -7,13 +7,12 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<language></language>
-		<summary lang="en">Script for more control of STB Showbox</summary>
-		<description lang="en">Showbox script which fixes some problems in kodi.</description>
+		<language>en</language>
+		<summary lang="en">Script which simplifies the usability of Showbox</summary>
+		<description lang="en">Script for the line of Showbox products simplifying the usability of them.</description>
 		<platform>all</platform>
-		<website></website>
-		<source></source>
-		<forum></forum>
-		<email></email>    
+        <website>https://themorc.github.io/</website>
+		<source>https://github.com/TheMorc/script.Showbox</source>
+		<email>r.gracik@gmail.com</email>    
 	</extension>
 </addon>
