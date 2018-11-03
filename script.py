@@ -8,8 +8,8 @@ elif sys.argv[1] == 'toggle':
         xbmc.executebuiltin('Stop')
         xbmc.executebuiltin('PlayerControl(Stop)')
     xbmc.executebuiltin('ActivateWindow(busydialognocancel)')
+    xbmc.sleep(500)
     xbmc.executebuiltin('CECToggleState')
     xbmc.executebuiltin('ActivateScreensaver')
-    xbmc.sleep(1000)
     xbmc.executebuiltin('Dialog.Close(busydialognocancel)')
     
