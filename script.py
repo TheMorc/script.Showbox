@@ -7,6 +7,7 @@ elif sys.argv[1] == 'toggle':
     if xbmc.Player().isPlaying() == 1:
         xbmc.executebuiltin('Stop')
         xbmc.executebuiltin('PlayerControl(Stop)')
+        xbmc.sleep(250)
     xbmc.executebuiltin('ActivateWindow(busydialognocancel)')
     xbmc.sleep(500)
     xbmc.executebuiltin('CECToggleState')
